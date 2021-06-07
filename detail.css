@@ -1,0 +1,19 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+}
+
+#hotel{
+    width: 500px;
+    height: 500px;
+}
+
+#socialsites{
+    height: 20px;
+    width: 22px;
+}
