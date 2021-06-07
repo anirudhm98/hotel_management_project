@@ -1,17 +1,34 @@
 <html>
     <head>  
        <title>detail</title>
+       <link rel="stylesheet" href="styles/detail.css">
     </head>
     <body>
         <div> 
         <div id = "Header">
-        <img src = "assests/images/logo.png" alt = "logo" height="100px" width="150px"/>
-        <a href="login.html" target="_blank">Login</a>
+            <a href="index.html" target="_self">
+        <img src = "assests/images/logo.png" id = "logo" height="100px" width="150px"/>
+        </a>
+        <a href="index.html" target="_self">Login</a>
          </div>
 
          <div id = "Content">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
-            <a href="payment.html" target="_blank">Book Now</a><br>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id = "hotel"></img>><br>
+            <form action="payment.html" method="GET" target="_self">
+                <label>Adults:</label>
+                <input type="number" min ="1" step="1" required/><br>
+                <label>Name:</label>
+                <input type="text" required/><br>
+                <label>From Date:</label>
+                <input type="date" required/><br>
+                <label>To Date:</label>
+                <input type="date" required/><br>
+                <label>Total:</label>
+                <input type="number" name="price" disabled/><br>
+                <button name="Book Now" type="submit">Book Now</button>
+            </form>
+            <!--<a href="payment.html" target="_blank">Book Now</a><br>-->
+
             <p><h2>Radisson Blu Hotel</h2></p>
             <p>RATING</p>
             <p>5 Star</p>
@@ -31,15 +48,15 @@
             <a href="contact.html" target="_blank">Contact Us</a></br>
 
             <a href="https://www.facebook.com" target="_blank">
-            <img src = "assests/images/facebook.png" height = "20px" width="22px">
+            <img src = "assests/images/facebook.png" height = "20px" width="22px" id = "socialsites"></img>
             </a>
 
             <a href="https://www.instagram.com" target="_blank">
-            <img src = "assests/images/instagram.png" height = "20px" width="22px">
+            <img src = "assests/images/instagram.png" height = "20px" width="22px" id = "socialsites"></img>
            </a>
 
            <a href="https://www.twitter.com" target="_blank">
-            <img src = "assests/images/twitter.png" height = "20px" width="22px">
+            <img src = "assests/images/twitter.png" height = "20px" width="22px" id = "socialsites"></img>
             </a>
             <p>© 2020 ROOM SEARCH PVT LTD</p>
         </div>
