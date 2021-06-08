@@ -1,45 +1,87 @@
+<!DOCTYPE html>
 <html>
-    <head>  
-       <title>index</title>
-    </head>
-    <body>
-        <div> 
+  <head>
+    <title>Index</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="assests/images/logo.png" id="logo" />
 
-        <div id = "Header">
-        <img src = "assests/images/logo.png" alt = "logo" height="100px" width="150px"/>
-        <a href="login.html" target="_blank">Login</a>
-         </div>
+        <a href="login.html" target="_self" id="login"><span>Login</span></a>
+      </div>
+    </header>
 
-         <div id = "Content">
-           <p>Search Bar</p>
-
-           <a href="list.html" target="_self">
-           <img src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" height = "300px" width="300px">
-           </a>
-           
-           <img src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" height = "300px" width="300px">
-           <img src = "https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" height = "300px" width="300px">
-           <img src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" height = "300px" width="300px"><br>
-           <a href="#" target="_self">View More</a>
- 
+    <article>
+      <section>
+        <div class="div1">
+          <input type="search" placeholder="City" id="searchbar" required />
         </div>
-        
-        <div id= "Footer">
-            <a href="contact.html" target="_blank">Contact Us</a></br>
 
-            <a href="https://www.facebook.com" target="_blank">
-            <img src = "assests/images/facebook.png" height = "20px" width="22px">
-            </a>
-
-            <a href="https://www.instagram.com" target="_blank">
-            <img src = "assests/images/instagram.png" height = "20px" width="22px">
-           </a>
-
-           <a href="https://www.twitter.com" target="_blank">
-            <img src = "assests/images/twitter.png" height = "20px" width="22px"><br>
-            </a>
-            <p>© 2020 ROOM SEARCH PVT LTD</p>
+        <div class="div2">
+          <a href="list.html" target="_self">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+              alt="new-delhi"
+              id="_img"
+          /></a>
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+            alt="goa"
+            id="_img"
+          />
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+            alt="Hyderabad"
+            id="_img"
+          />
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+            alt="kolkata-calcutta"
+            id="_img"
+          />
         </div>
-     </div>
-    </body>
+        <div style="text-align: center">
+          <a href="#" target="_self" style="color: black; text-decoration: none"
+            ><span>View More >> </span></a
+          >
+        </div>
+      </section>
+    </article>
+    <footer>
+      <div class="contact">
+        <a href="contact.html" target="_self" class="us"
+          ><span>Contact Us</span></a
+        >
+      </div>
+
+      <div class="footerline">
+        <span> &copy 2021 ROOM SEARCH PVT LTD</span>
+      </div>
+      <div class="socialicons">
+        <a href="https://www.facebook.com" target="_blank"
+          ><img
+            src="assests/images/facebook.png"
+            alt="facebook"
+            id="socialsites"
+        /></a>
+
+        <a href="https://www.instagram.com" target="_blank"
+          ><img
+            src="assests/images/instagram.png"
+            alt="instagram"
+            id="socialsites"
+        /></a>
+        <a href="https://twitter.com" target="_blank"
+          ><img src="assests/images/twitter.png" alt="twitter" id="socialsites"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>

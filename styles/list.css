@@ -1,0 +1,33 @@
+.listmap {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  ._img {
+    height: 200px;
+    width: 250px;
+  }
+  
+  .image-container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 19px;
+  }
+  .image_container {
+    margin-top: 50px;
+  }
+  .content {
+    background-color: rgb(132, 136, 139);
+    width: 40%;
+    margin-right: 65px;
+    margin-left: 54px;
+    height: 20.6em;
+  }
+  ._content {
+    background-color: rgb(132, 136, 139);
+    width: 40%;
+    margin-left: 72px;
+    height: 20.6em;
+  }

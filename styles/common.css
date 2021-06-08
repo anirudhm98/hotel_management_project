@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    background-color: #e0e0e0;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    position: relative;
+  }
+  html {
+    height: 100%;
+  }
+  header {
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-sizing: content-box;
+  }
+  #login {
+    float: right;
+    color: black;
+    line-height: 60px;
+    padding-right: 20px;
+    text-decoration: none;
+  }
+  #logo {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 auto;
+  }
+  footer {
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    display: flex;
+  }
+  .contact {
+    width: 33%;
+    padding-top: 22px;
+    margin-left: 10px;
+  }
+  .us {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footerline {
+    width: 33%;
+    text-align: center;
+    padding-top: 49px;
+    font-size: 10px;
+  }
+  .socialicons {
+    width: 33%;
+    text-align: right;
+  }
+  #socialsites {
+    height: 20px;
+    width: 22px;
+    padding-top: 22px;
+    margin-right: 5px;
+  }
