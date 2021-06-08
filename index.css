@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #e0e0e0;
+}
+header{
+    background-color: rosybrown;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+#_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    padding: 4%;
+}
+#socialsites{
+    height: 20px;
+    width: 22px;
+}
+footer{
+    background-color: rosybrown;
+}
+.div1{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.div2{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    
+}
