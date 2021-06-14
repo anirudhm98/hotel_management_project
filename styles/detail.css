@@ -1,0 +1,48 @@
+#_img {
+  height: 350px;
+  width: 500px;
+  margin-top: 3%;
+}
+
+.div1 {
+  margin: 1% 4% 2% 1.5%;
+  margin-top: -2em;
+}
+.container {
+  height: 382px;
+  border: 1px solid black;
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em;
+  
+}
+#_btn:hover{
+  background-color: green !important;
+  color: white !important;
+}
+.img {
+  margin-right: 20px;
+  
+}
+
+.vl {
+  border-left: 1px solid black;
+  
+}
+._text {
+  font-family: cursive;
+}
+.text {
+  width: 60%;
+}
+.input {
+  width: 40%;
+}
+
+._form {
+  display: flex;
+  margin-bottom: 31px;
+
+  margin-right: 3em;
+}
