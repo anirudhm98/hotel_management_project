@@ -1,0 +1,40 @@
+#_btn:hover {
+  background-color: green !important;
+  color: white !important;
+}
+.div1 {
+  padding-left: 18px;
+}
+#_img {
+  width: 500px;
+  height: 350px;
+}
+#row {
+  border: 1px solid black;
+  margin-top: 80px !important;
+  width: 97%;
+  margin: auto;
+}
+#text1 {
+  border-right: 1px solid black;
+  padding: 16px;
+}
+
+.checked {
+  color: orange;
+}
+._text {
+  font-family: cursive;
+}
+.text {
+  width: 40%;
+}
+.input {
+  width: 60%;
+}
+._form {
+  display: flex;
+  margin-bottom: 31px;
+  margin-right: 3em;
+  width: 100%;
+}

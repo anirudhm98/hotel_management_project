@@ -1,0 +1,66 @@
+#searchbar {
+  background-color: #f1f1f1;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  top: 50%;
+  left: 1%;
+  position: relative;
+  padding: 10px;
+  font-size: 16px;
+  width: 29%;
+}
+#searchbar:focus {
+  outline: none;
+}
+.container{
+  position: relative;
+}
+#_img {
+  height: 150px;
+  width: 150px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 10px grey;
+}
+.container1 {
+  display: flex;
+  padding-top: 50px;
+ text-align: center;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* background-color: rgba(0,0,0,0.5); */
+}
+.container:hover .middle{
+  opacity: 1;
+}
+.container:hover #_img{
+  opacity: 0.5;
+}
+.div1 {
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.text {
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
